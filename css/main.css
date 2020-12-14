@@ -1,0 +1,22 @@
+.grid div {
+    background: #ecf0f1;
+    padding: 1em;
+}
+
+.grid div:hover{
+    border: 1px solid yellow;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap:1em;
+    margin-top:20px
+}
+
+.capaNumero{
+    box-shadow: 5px 10px #888888;
+    border-radius: 90%;
+    margin:auto;
+    font-weight: bolder;
+}

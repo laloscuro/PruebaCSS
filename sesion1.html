@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Pepe cohete
+    <form>
+        <input type="email"  name="email" id="email" required>
+        <input type="submit">
+    </form>
+    <button id="boton" onClick="oculta()" type="button">Pulsa</button>
+    <script text="text/javascript">
+     var nombre = "Pepito";
+     document.writeln("Hola "+nombre+" como estas");
+     document.writeln(`Hola ${nombre} como estas de otra manera`);
+     
+     function AltaClientes(nombre,apellido,tfno,movil)
+     {
+         let cliente = {
+             nombre:nombre,
+             apellido:apellido,
+             tfno:tfno,
+             movil:movil
+         };
+     }
+      var boton = document.getElementById("boton");
+     alert(boton);
+     boton.onmouseover=alertame("Holaaa");
+
+     function alertame(message)
+     {
+         alert(message);
+     }    
+     </script>
+</body>
+</html>
